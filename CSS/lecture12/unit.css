@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    /* width: 500px; */
+    /* height: 500px; */
+     width: 100vw; 
+    /* height: 50%;  */
+    height: 100vh;
+    font-size: 40px;
+    /* background-color: rgba(38, 212, 3, 0.714); */
+}
+html{
+    font-size: 40px;
+}
+section{
+    font-size: 4rem;
+}
+span{
+    /* width: 250px;
+    height:250px ; */
+    /* background-color: aqua;
+     width: 40%;
+    height: 50%;
+    display: inline-block; */
+}
+p{
+    font-size: 8em;
+}

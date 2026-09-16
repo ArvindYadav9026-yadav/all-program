@@ -1,0 +1,37 @@
+#Aditya{
+    font-family:"yuyu" sans-serif;
+}
+#Lakshya{
+    font-size: 100px;
+    text-shadow:10px 10px 10px blue;
+    
+}
+p{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height:2 ;
+    letter-spacing: 1 ;
+    
+}
+#Anu{
+ /* font-style: oblique; */
+    font-variant: small-caps;
+}
+#Vikash{
+    text-align: end;
+    border: 1px solid rgba(0, 0, 255,1);
+}
+#Nilesh{
+   
+     text-indent:300px ;
+    
+}
+#color{
+    /* color:red; */
+    /* color: #0400ff; */
+    /* color: rgb(0, 0, 255); */
+    color: hsl(360, 50%, 50%);
+     color: hsla(360, 50%, 50%,0.5);
+     background-color: rgba(0, 0, 255,1);
+
+}

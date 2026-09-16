@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Hello Dosto</h1>
+    <form action="" id="form">
+        <div>
+        <label for="username" >name:</label>
+        <input  type="text" id="username" placeholder="Enter you name">
+        <span class="error_message" style="color: red;"></span>
+        </div>
+        <div>
+            <label for="email"> Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+             <span class="error_message" style="color: red;"></span>
+        </div>
+       
+        <div>
+            <label for="possword"  >possword:</label>
+            <input type="password" id="possword" placeholder="Enter your possword">
+             <span class="error_message" style="color: red;"></span>
+
+        </div>
+         <p id="possword_hint" class="hidden">Must be at least 8 charctors</p>
+        <div>
+            <label for="bio"  >bio:</label>
+            <textarea name="bio" id="bio" placeholder="enter you bio..."></textarea>
+            <p id="char_count">150  characters remaining</p>
+             <span class="error_message" style="color: red;"></span>
+
+        </div>
+        <div>
+            <label for="country">Select your country</label>
+            <select name="country" id="country">
+                <option value="india">india</option>
+                <option value="uk">uk</option>
+            </select>
+             <span class="error_message" style="color: red;"></span>
+        </div>
+             <div>
+           <input type="checkbox" id="checkbox">
+           <label for="checkbox">I agre to the term and codition</label>
+            <span class="error_message" style="color: red;"></span>
+
+        </div>
+        <button type="submit" id="btn">create account</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

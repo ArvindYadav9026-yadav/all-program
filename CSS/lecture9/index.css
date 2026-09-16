@@ -1,0 +1,61 @@
+/* span{
+    color: green;
+}
+a,li{
+    color: blueviolet;
+}
+.hello{
+    color: aquamarine;
+}
+#Nihal{
+    color: chocolate;
+    background-color: yellow;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+} */
+ /* *{
+    color: orange;
+    border: 2px solib black;
+ } */
+  /* div p{
+    color: rgb(15, 30, 196);
+  } */
+   /* div>p{
+    color: aqua;
+
+   } */
+    /* a+p{
+        color: blueviolet;
+    } */
+     a~ p{
+        color: red;
+
+     }
+     h1:hover{
+        background-color: red;
+     }
+     li:hover{
+        color: brown;
+
+     }
+     li:first-child{
+        color: green;
+     }
+     li:nth-child(2n+1){
+        color: blueviolet;
+     }
+     h1:after{
+        content: "ji";
+     }
+     h1::before{
+        content: "hello";
+     }
+     h1::first-letter{
+        color: aqua;
+        font-size: larger;
+     }
+     h1::selection{
+        color: blue;
+        background-color: red;
+     }

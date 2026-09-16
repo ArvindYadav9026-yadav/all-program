@@ -1,0 +1,1 @@
+let product1=["iphone",5678];
